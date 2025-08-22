@@ -2,6 +2,7 @@
 
 .menu {
   position: relative;
+  min-width: 355px;
 
   &__logo {
     width: 35px;
@@ -24,7 +25,12 @@
   }
 
   &__link {
+    font-size: 12px;
     color: $white;
     text-decoration: none;
+
+    &_black {
+      color: $black;
+    }
   }
 }

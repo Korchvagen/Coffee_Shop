@@ -4,7 +4,7 @@ import '../styles/header.scss';
 function Header() {
   return (
     <header className="header">
-      <Menu/>
+      <Menu isWhite={true}/>
     </header>
   );
 }
