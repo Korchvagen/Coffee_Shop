@@ -1,0 +1,30 @@
+@use 'variables.scss' as *;
+
+.menu {
+  position: relative;
+
+  &__logo {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+
+  &__nav {
+    position: absolute;
+    left: 31px;
+    bottom: 0;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 40px;
+  }
+
+  &__link {
+    color: $white;
+    text-decoration: none;
+  }
+}
